@@ -1,0 +1,78 @@
+body {
+    background-image: url('Imagens/cosmic-dreamscape-nebula-planet-outer-space.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-inline {
+    height: 1.5em;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 3px;
+    transition: transform 0.3s ease;
+}
+
+.logo-inline:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.7));
+}
+
+body {
+    position: relative;
+    min-height: 100vh; 
+    overflow-x: hidden; 
+}
+
+#meu_boneco_3d {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 250px;
+    height: auto;
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4)); 
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+#meu_boneco_3d:hover {
+    transform: scale(1.05) translateY(-5px); /* Aumenta um pouco e sobe */
+    filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.7)); /* Sombra mais brilhante */
+}
+
+.descricao {
+    position: absolute;
+     text-align: center;
+    bottom: 50%;
+    right: 40%;
+    width: 250px;
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border-radius: 5px;
+    z-index: 9; 
+}
