@@ -48,10 +48,9 @@ body {
 
 #meu_boneco_3d {
     position: absolute;
-    bottom: 10%;
-    right: 5%;
+    bottom: 0;
+    right: 0;
     width: 250px;
-    height: auto;
     filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4)); 
     transition: all 0.3s ease;
     z-index: 10;
@@ -76,3 +75,14 @@ body {
     border-radius: 5px;
     z-index: 9; 
 }
+
+@media (max-width: 768px) {
+.descricao {
+position: relative;
+    right: auto;
+    bottom: auto;
+    margin: 40px auto; 
+    width: 85%; 
+    max-width: 350px; 
+    text-align: center; 
+}}
